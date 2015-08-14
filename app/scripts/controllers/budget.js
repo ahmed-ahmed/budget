@@ -8,10 +8,9 @@
  * Controller of the budgetApp
  */
 angular.module('budgetApp')
-  .controller('BudgetCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('BudgetCtrl', function (service, $scope, $routeParams) {
+    service.getBudgetDetails($routeParams.budgetId).then(function(response){
+  		$scope.budget = response.data;
+
+  	});
   });

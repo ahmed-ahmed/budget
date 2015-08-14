@@ -44,10 +44,15 @@ angular
         controller: 'BudgetsCtrl',
         controllerAs: 'budgets'
       })
-      .when('/budget', {
+      .when('/budget/:budgetId', {
         templateUrl: 'views/budget.html',
         controller: 'BudgetCtrl',
         controllerAs: 'budget'
+      })
+      .when('/categories', {
+        templateUrl: 'views/categories.html',
+        controller: 'CategoriesCtrl',
+        controllerAs: 'categories'
       })
       .otherwise({
         redirectTo: '/'
