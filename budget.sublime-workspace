@@ -7,6 +7,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/ama29/New Folder/app/server.js",
+			"settings":
+			{
+				"buffer_size": 8724,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ama29/New Folder/app/database.js",
+			"settings":
+			{
+				"buffer_size": 3904,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,17 +31,25 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 96.0,
-		"last_filter": "insta",
+		"height": 243.0,
+		"last_filter": "grunt",
 		"selected_items":
 		[
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"grunt",
 				"Grunt"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"gru",
+				"Grunt"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"install",
@@ -36,7 +60,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -59,10 +83,24 @@
 	},
 	"expanded_folders":
 	[
-		"/home/ama29/budget/app/scripts"
+		"/home/ama29/budget/app",
+		"/home/ama29/budget/app/scripts",
+		"/home/ama29/budget/app/scripts/controllers",
+		"/home/ama29/budget/app/scripts/services",
+		"/home/ama29/budget/app/views",
+		"/home/ama29/budget/test",
+		"/home/ama29/New Folder",
+		"/home/ama29/New Folder/app"
 	],
 	"file_history":
 	[
+		"/home/ama29/New Folder/run.js",
+		"/home/ama29/budget/app/views/accounts.html",
+		"/home/ama29/budget/app/scripts/app.js",
+		"/home/ama29/budget/app/scripts/services/service.js",
+		"/home/ama29/budget/app/views/account.html",
+		"/home/ama29/budget/app/scripts/controllers/account.js",
+		"/home/ama29/budget/app/scripts/controllers/accounts.js",
 		"/home/ama29/scifinder/web/rest/xml/initatingaction_b0aed063-7aec-4a88-814f-50dd2f38d743.xml",
 		"/home/ama29/scifinder/web/rest/xml/initatingaction_c226848e-25c9-4e8d-a600-47732c3797c5.xml",
 		"/home/ama29/scifinder/web/rest/xml/initatingaction_bdceb81d-cb44-4d17-8cc1-86caf31412fd.xml",
@@ -84,11 +122,6 @@
 		"/home/ama29/budget/gulpfile.js",
 		"/home/ama29/budget/testem.json",
 		"/home/ama29/budget/test/spec/controllers/account.js",
-		"/home/ama29/budget/app/scripts/controllers/accounts.js",
-		"/home/ama29/budget/app/views/accounts.html",
-		"/home/ama29/budget/app/scripts/controllers/account.js",
-		"/home/ama29/budget/app/views/account.html",
-		"/home/ama29/budget/app/scripts/services/service.js",
 		"/home/ama29/budget/Gruntfile.js"
 	],
 	"find":
@@ -125,8 +158,66 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/ama29/New Folder/app/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								839,
+								839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/ama29/New Folder/app/database.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -169,6 +260,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 124.0
+	},
 	"pinned_build_system": "",
 	"project": "budget.sublime-project",
 	"replace":
@@ -182,6 +277,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"app.",
+				"app/scripts/app.js"
+			]
 		],
 		"width": 0.0
 	},

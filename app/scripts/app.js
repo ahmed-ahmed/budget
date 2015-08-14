@@ -39,6 +39,16 @@ angular
         controller: 'AccountCtrl',
         controllerAs: 'account'
       })
+      .when('/budgets', {
+        templateUrl: 'views/budgets.html',
+        controller: 'BudgetsCtrl',
+        controllerAs: 'budgets'
+      })
+      .when('/budget', {
+        templateUrl: 'views/budget.html',
+        controller: 'BudgetCtrl',
+        controllerAs: 'budget'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -37,9 +37,38 @@ angular.module('budgetApp')
 
 	};
 
+    var budgets = [
+        {id: 1, name: 'Augest 2015'},
+        {id: 2, name: 'Sept 2015'}
+    ];
+
+    var budget = {
+        {id: 1, name: 'Augest 2015'},
+        goals: [
+            {
+                category: {id: 1, name: 'education'}
+                spent: 500,
+            },
+
+        ]
+    }
+
+
     service.getAccounts = function(){
 		var deferred = $q.defer();
         deferred.resolve({data: accounts});
+        return deferred.promise;
+    };
+
+    service.getBudgets = function(){
+        var deferred = $q.defer();
+        deferred.resolve({data: budgets});
+        return deferred.promise;
+    };
+
+    service.getBudgetDetails = function(id){
+        var deferred = $q.defer();
+        deferred.resolve({data: account});
         return deferred.promise;
     };
 
