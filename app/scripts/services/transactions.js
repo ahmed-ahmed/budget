@@ -2372,4 +2372,4 @@ var transactions = [
     "category":"",
     "value":1200
   }
-]
+];

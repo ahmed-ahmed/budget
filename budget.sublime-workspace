@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"an",
+				"angular"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
 				"cate",
 				"categories"
 			],
@@ -16,37 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/budget.html",
+			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 754,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/directives/budget-progress.js",
-			"settings":
-			{
-				"buffer_size": 411,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<div class=\"row\">\n	<div id=\"spent\" style=\"background-color:red\" class=\"\"></div>\n</div>",
-			"file": "app/scripts/directives/budget-progress.html",
-			"file_size": 77,
-			"file_write_time": 130845718663165828,
-			"settings":
-			{
-				"buffer_size": 86,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/services/service.js",
-			"settings":
-			{
-				"buffer_size": 3791,
+				"buffer_size": 4689,
 				"line_ending": "Unix"
 			}
 		}
@@ -111,23 +96,33 @@
 	"expanded_folders":
 	[
 		"/home/ama29/budget",
+		"/home/ama29/budget/.tmp/styles",
 		"/home/ama29/budget/app",
-		"/home/ama29/budget/app/scripts",
-		"/home/ama29/budget/app/scripts/services"
+		"/home/ama29/budget/bower_components/angular-bootstrap"
 	],
 	"file_history":
 	[
+		"/home/ama29/budget/app/scripts/directives/edit-category.html",
+		"/home/ama29/budget/app/styles/main.css",
+		"/home/ama29/budget/app/scripts/directives/editcategory.js",
 		"/home/ama29/budget/app/scripts/directives/progress.js",
 		"/home/ama29/budget/app/scripts/services/service.js",
+		"/home/ama29/budget/app/scripts/services/transactions.js",
+		"/home/ama29/budget/app/views/dashboard.html",
+		"/home/ama29/budget/app/scripts/app.js",
+		"/home/ama29/budget/app/scripts/controllers/dashboard.js",
+		"/home/ama29/budget/app/scripts/directives/budget-progress.js",
+		"/home/ama29/budget/app/scripts/services/data.js",
+		"/home/ama29/scifinder/web/xml/initatingaction_df7651d0-efc8-4a04-8519-1372caca2c69.xml",
+		"/home/ama29/budget/app/views/budget.html",
+		"/home/ama29/budget/app/scripts/directives/budget-progress.html",
 		"/home/ama29/budget/app/views/categories.html",
 		"/home/ama29/budget/app/scripts/controllers/categories.js",
 		"/home/ama29/budget/app/index.html",
-		"/home/ama29/budget/app/scripts/app.js",
 		"/home/ama29/budget/app/views/accounts.html",
 		"/home/ama29/budget/app/views/budgets.html",
 		"/home/ama29/budget/app/scripts/controllers/budgets.js",
 		"/home/ama29/budget/app/scripts/controllers/budget.js",
-		"/home/ama29/budget/app/views/budget.html",
 		"/home/ama29/budget/Gruntfile.js",
 		"/home/ama29/New Folder/app/server.js",
 		"/home/ama29/New Folder/app/database.js",
@@ -172,6 +167,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Account",
 			"serve",
 			"ui"
 		],
@@ -181,6 +177,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"account"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -191,120 +188,34 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/budget.html",
+					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 754,
+						"buffer_size": 4689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								700,
-								700
+								3579,
+								3579
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/scripts/directives/budget-progress.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								313,
-								313
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/scripts/directives/budget-progress.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 86,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/scripts/services/service.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3791,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								947,
-								947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1140.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -360,7 +271,7 @@
 	"project": "budget.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -369,6 +280,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"transactions.js",
+				"app/scripts/services/transactions.js"
+			],
+			[
+				"service.js",
+				"app/scripts/services/service.js"
+			],
+			[
+				"udget-progress.js",
+				"app/scripts/directives/budget-progress.js"
+			],
+			[
+				"editcategory.js",
+				"app/scripts/directives/editcategory.js"
+			],
+			[
+				"dashboard.js",
+				"app/scripts/controllers/dashboard.js"
+			],
 			[
 				"serv",
 				"app/scripts/services/service.js"

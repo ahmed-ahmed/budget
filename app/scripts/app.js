@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    "angucomplete-alt"
+    'angucomplete-alt',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider

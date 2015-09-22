@@ -12,43 +12,34 @@ angular.module('budgetApp')
 
   	$scope.transactions = [];
   	$scope.accounts = [];
-
   	$scope.categories = [];
 
 
-	service.getTransactions().then(function(response){
-		$scope.transactions = response.data;
+    $scope.totalItems = 0
+    $scope.currentPage = 1
+    $scope.pageChanged = function(){
+      service.getTransactions($scope.currentPage).then(function(response){
+        $scope.transactions = response.data;
+        $scope.totalItems = response.total
+      });
+    }
+
+	  service.getTransactions($scope.currentPage).then(function(response){
+		  $scope.transactions = response.data;
+      $scope.totalItems = response.total
   	});
 
   	service.getAccounts().then(function(response){
   		$scope.accounts = response.data;
-  	})
+  	});
 
   	service.getCategories().then(function(response){
   		$scope.categories = response.data;
-  	})
-  	//to do create a directive
-	// in place edit 
-
-	$scope.editorEnabled = false;
-
-
-  	$scope.inPlaceEdit = function(){
-  		$(this).hide();
-  	}
+  	});
+ 
 
 	$scope.categorySelected = function(selected) {
 		console.log(selected);
-		// if(selected){
-		// 	var currentCategory = this.$parent.$index;
-		// 	$scope.transactions[currentCategory].category = selected.originalObject;
-		// }
-		//service.updateCategory(transaction, category)
-      // if (selected) {
-      //   $scope.countrySelected9 = selected.originalObject;
-      // } else {
-      //   $scope.countrySelected9 = null;
-      // }
-    }
+    };
 
   });

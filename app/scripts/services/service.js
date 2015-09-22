@@ -9,7 +9,7 @@
  */
 angular.module('budgetApp')
   .service('service', function ($q, data) {
-    // AngularJS will instantiate a singleton by calling "new" on this function
+    var pageSize = 20;
     var service = {};
     var transactions = data.transactions;
     // var transactions= [{
@@ -143,11 +143,16 @@ angular.module('budgetApp')
         return deferred.promise;
     };
 
-    service.getTransactions = function(){
+    service.getTransactions = function(pageNo){
         var deferred = $q.defer();
-        deferred.resolve({data: transactions});
+        deferred.resolve({
+            total:transactions.length,
+            nextPage: pageNo++,
+            data: transactions.slice((pageNo - 1) * pageSize, pageNo * pageSize )
+        });
         return deferred.promise;
-    }
+    };
+
 
     return service;
   });

@@ -11,7 +11,7 @@ angular.module('budgetApp')
     return {
       templateUrl: 'budget-progress.html',
       restrict: 'E',
-      link: function postLink(scope, element, attrs) {
+      link: function postLink(scope, element) {
         element.text('this is the budgetProgress directive');
       }
     };
