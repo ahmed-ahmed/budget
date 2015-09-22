@@ -19,6 +19,9 @@
 			<td>remaining</td>
 			<td>goal</td>
 			<td>avarage</td>
+			<td>Date</td>
+			<td></td>
+
 		</tr>
 		<tr ng-repeat="t in budget.goals">
 			<td>{{t.category.name}}</td>
@@ -26,6 +29,13 @@
 			<td>{{t.remaining}}</td>
 			<td>{{t.goal}}</td>
 			<td>{{t.avarage}}</td>
+			<td>
+				{{budget.startDate}} <br>
+				{{budget.endDate}}
+			</td>
+			<td>
+				<budget-progress goal="t.goal"></budget-progress>
+			</td>
 		</tr>
 	</table>
 </div>

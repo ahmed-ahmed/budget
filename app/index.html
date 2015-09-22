@@ -8,6 +8,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angucomplete-alt/angucomplete-alt.css" />
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
@@ -43,6 +44,7 @@
               <li><a ng-href="#/categories">Categories</a></li>
               <li><a ng-href="#/accounts">Accounts</a></li>
               <li><a ng-href="#/budgets">Budgets</a></li>
+              <li><a ng-href="#/bills">Bills</a></li>
             </ul>
           </div>
         </div>
@@ -75,13 +77,14 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angucomplete-alt/angucomplete-alt.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -95,6 +98,12 @@
         <script src="scripts/controllers/budgets.js"></script>
         <script src="scripts/controllers/budget.js"></script>
         <script src="scripts/controllers/categories.js"></script>
+        <script src="scripts/controllers/bills.js"></script>
+        <script src="scripts/directives/progress.js"></script>
+        <script src="scripts/directives/budget-progress.js"></script>
+        <script src="scripts/controllers/dashboard.js"></script>
+        <script src="scripts/directives/editcategory.js"></script>
+        <script src="scripts/services/data.js"></script>
         <!-- endbuild -->
 </body>
 </html>

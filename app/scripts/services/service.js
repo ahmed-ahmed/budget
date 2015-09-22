@@ -8,10 +8,25 @@
  * Service in the budgetApp.
  */
 angular.module('budgetApp')
-  .service('service', function ($q) {
+  .service('service', function ($q, data) {
     // AngularJS will instantiate a singleton by calling "new" on this function
     var service = {};
-
+    var transactions = data.transactions;
+    // var transactions= [{
+    //         id: 32542,
+    //         description: 'visa payment for card no #####9823',
+    //         value: 500.00,
+    //         date: '08/12/2015',
+    //         category: {id: 1, name: 'education'}
+    //     },
+    //     {
+    //         id: 32542,
+    //         description: 'visa payment for card no #####9823',
+    //         value: 851.42,
+    //         date: '08/12/2015',
+    //         category: {id: 1, name: 'education'}
+    //     }
+    //     ];
     var categories = [
         {id: 1, name: 'Auto', type: 'Expense'},
         {id: 2, name: 'Dining', type: 'Expense'},
@@ -88,6 +103,15 @@ angular.module('budgetApp')
             ]
     };
 
+    var bills = [
+        {
+            category: {id: 3, name: 'Electricity'},
+            every: 'month',
+            nextPayment: 30,
+            value: 36.90
+        }
+    
+    ];
 
     service.getAccounts = function(){
 		var deferred = $q.defer();
@@ -119,6 +143,11 @@ angular.module('budgetApp')
         return deferred.promise;
     };
 
+    service.getTransactions = function(){
+        var deferred = $q.defer();
+        deferred.resolve({data: transactions});
+        return deferred.promise;
+    }
 
     return service;
   });

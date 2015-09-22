@@ -3,23 +3,50 @@
 	{
 		"selected_items":
 		[
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"bu",
+				"budget"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/home/ama29/New Folder/app/server.js",
+			"file": "app/views/budget.html",
 			"settings":
 			{
-				"buffer_size": 8724,
+				"buffer_size": 754,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/ama29/New Folder/app/database.js",
+			"file": "app/scripts/directives/budget-progress.js",
 			"settings":
 			{
-				"buffer_size": 3904,
+				"buffer_size": 411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"row\">\n	<div id=\"spent\" style=\"background-color:red\" class=\"\"></div>\n</div>",
+			"file": "app/scripts/directives/budget-progress.html",
+			"file_size": 77,
+			"file_write_time": 130845718663165828,
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/services/service.js",
+			"settings":
+			{
+				"buffer_size": 3791,
 				"line_ending": "Unix"
 			}
 		}
@@ -31,7 +58,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 243.0,
+		"height": 392.0,
 		"last_filter": "grunt",
 		"selected_items":
 		[
@@ -83,21 +110,28 @@
 	},
 	"expanded_folders":
 	[
+		"/home/ama29/budget",
 		"/home/ama29/budget/app",
 		"/home/ama29/budget/app/scripts",
-		"/home/ama29/budget/app/scripts/controllers",
-		"/home/ama29/budget/app/scripts/services",
-		"/home/ama29/budget/app/views",
-		"/home/ama29/budget/test",
-		"/home/ama29/New Folder",
-		"/home/ama29/New Folder/app"
+		"/home/ama29/budget/app/scripts/services"
 	],
 	"file_history":
 	[
-		"/home/ama29/New Folder/run.js",
-		"/home/ama29/budget/app/views/accounts.html",
-		"/home/ama29/budget/app/scripts/app.js",
+		"/home/ama29/budget/app/scripts/directives/progress.js",
 		"/home/ama29/budget/app/scripts/services/service.js",
+		"/home/ama29/budget/app/views/categories.html",
+		"/home/ama29/budget/app/scripts/controllers/categories.js",
+		"/home/ama29/budget/app/index.html",
+		"/home/ama29/budget/app/scripts/app.js",
+		"/home/ama29/budget/app/views/accounts.html",
+		"/home/ama29/budget/app/views/budgets.html",
+		"/home/ama29/budget/app/scripts/controllers/budgets.js",
+		"/home/ama29/budget/app/scripts/controllers/budget.js",
+		"/home/ama29/budget/app/views/budget.html",
+		"/home/ama29/budget/Gruntfile.js",
+		"/home/ama29/New Folder/app/server.js",
+		"/home/ama29/New Folder/app/database.js",
+		"/home/ama29/New Folder/run.js",
 		"/home/ama29/budget/app/views/account.html",
 		"/home/ama29/budget/app/scripts/controllers/account.js",
 		"/home/ama29/budget/app/scripts/controllers/accounts.js",
@@ -115,18 +149,16 @@
 		"/home/ama29/scifinder/web/rest/xml/activity_e21544f6-6d48-41d4-b11a-d0ba96ccc018.xml",
 		"/home/ama29/scifinder/web/rest/xml/activity_9f109317-b4a9-4c4f-bf23-db5d36311408.xml",
 		"/home/ama29/scifinder/web/rest/xml/Done/100.substancesearch/activity_3c2fff52-20b3-4dff-a567-b0967210c5fc.xml",
-		"/home/ama29/budget/app/index.html",
 		"/home/ama29/budget/gulp/watch.js",
 		"/home/ama29/budget/package.json",
 		"/home/ama29/budget/karma.conf.js",
 		"/home/ama29/budget/gulpfile.js",
 		"/home/ama29/budget/testem.json",
-		"/home/ama29/budget/test/spec/controllers/account.js",
-		"/home/ama29/budget/Gruntfile.js"
+		"/home/ama29/budget/test/spec/controllers/account.js"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -140,6 +172,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"serve",
 			"ui"
 		],
 		"highlight": true,
@@ -158,24 +191,53 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/ama29/New Folder/app/server.js",
+					"file": "app/views/budget.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8724,
+						"buffer_size": 754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								839,
-								839
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/directives/budget-progress.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
 							]
 						],
 						"settings":
@@ -183,36 +245,66 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 285.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/home/ama29/New Folder/app/database.js",
+					"buffer": 2,
+					"file": "app/scripts/directives/budget-progress.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3904,
+						"buffer_size": 86,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								401,
-								401
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/services/service.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -278,6 +370,18 @@
 		"selected_items":
 		[
 			[
+				"serv",
+				"app/scripts/services/service.js"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
 				"app.",
 				"app/scripts/app.js"
 			]
@@ -286,12 +390,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/budgetApi/budget.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
